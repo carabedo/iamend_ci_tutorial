@@ -31,3 +31,25 @@ cn.plt.im(f,datacorr,1)
 
 ![](/imgs/1.png)
 
+### ajuste permeabilidad
+
+#### parametros geometricos efectivos
+
+```phyton
+dp=15e-3
+sig=4e6
+mup=1
+# valor ajustado y grafico
+z1eff,figz1=cn.fit.z1(f,bo,datacorr,0,dp,sig,mup)
+```
+
+#### permeabilidad relativa efectiva
+
+```python
+mueff,pltmu=cn.fit.mu(f,bo,datacorr,1,4e6,z1eff)
+```
+
+
+
+
+
