@@ -9,9 +9,25 @@ Libreria para la estimacion de la permeabilidad relativa efectiva usando medicio
 
 ```python
 
-data=cn.so.load('C:/Users/fernando/tesis/labs/impedancias/pp1/enero 18')
+data=cn.so.load('carpeta con mediciones')
+
+# lee las frecuencias utilizadas en el experimento
+
 f=cn.so.getf(data)
+
+# carga los parametros geometricos de la bobina
 bo=cn.bo.bobpp1
+
+# importa y corrige los valores de la impedancia
 datacorr=cn.so.corr(f,bo,data)
 ```
+
+### grafico datos
+
+```python
+# ploteo de la parte imaginaria de la impedancia corregida (parametros: x,Y,n= id medicion )
+cn.plt.im(f,datacorr,1)
+```
+
+![](/imgs/1.png)
 
