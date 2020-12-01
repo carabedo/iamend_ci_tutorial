@@ -4,9 +4,11 @@ Libreria para la estimacion de la permeabilidad relativa efectiva usando medicio
 
 ### implementacion del modelo teorico de dood,deeds
 
-`cn.theo.dz`
+`cn.theo.z0`
 
-$\gamma$
+![img](/imgs/0_1.png)
+
+
 
 
 ### carga  y correccion datos
