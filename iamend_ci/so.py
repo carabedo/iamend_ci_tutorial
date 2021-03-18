@@ -1,5 +1,5 @@
 """ Modulo para el procesamiento de los archivos CVS del solartron"""
-import cnea.theo as theo
+import iamend_ci.theo as theo
 
 import os
 import tkinter as tk

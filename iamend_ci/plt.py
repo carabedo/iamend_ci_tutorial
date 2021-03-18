@@ -1,5 +1,5 @@
 """ Modulo con funciones para graficar en matplotlin o plotly"""	
-import cnea.theo as theo															
+import iamend_ci.theo as theo															
 import os
 import csv
 import numpy

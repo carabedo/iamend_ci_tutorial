@@ -1,5 +1,5 @@
 """ Modulo con las funciones para fitear impedancias"""
-import cnea.theo as theo
+import iamend_ci.theo as theo
 
 
 import numpy as np
@@ -11,7 +11,7 @@ root.withdraw()
 import plotly.graph_objs as go
 import plotly
 plotly.offline.init_notebook_mode(connected=True)
-
+from plotly.subplots import make_subplots
 import os
 import csv
 
@@ -22,7 +22,7 @@ import csv
 def semilogfit(x,Y,titulo):
     """ fiteo y plot (plotly) varias muestras """
     
-    fig = plotly.subplots.make_subplots(rows=1, cols=1 ,print_grid=False)
+    fig =make_subplots(rows=1, cols=1 ,print_grid=False)
     for b,a in enumerate(Y):
         if b==0:
             trace0 = go.Scatter(
