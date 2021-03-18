@@ -4,15 +4,15 @@ Libreria para la estimacion de la permeabilidad relativa efectiva usando medicio
 
 ### implementacion del modelo teorico de dood,deeds
 
-`cn.theo.zo()`
+`iamend_ci.theo.zo()`
 
 ![img](/imgs/0_1.png)
 
-`cn.theo.dzD()`
+`iamend_ci.theo.dzD()`
 
 ![img](/imgs/0_2.png)
 
-`cn.theo.jhf()`
+`iamend_ci.theo.jhf()`
 
 ![img](/imgs/0_3.png)
 
