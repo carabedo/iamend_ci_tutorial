@@ -14,11 +14,11 @@ Libreria para la estimacion de la permeabilidad relativa efectiva usando medicio
 
 `iamend_ci.theo.jhf()`
 
-![img](/imgs/0_3.png)
+![img](https://raw.githubusercontent.com/carabedo/iamend_ci/master/imgs/0_3.png)
 
 con:
 
-![img](/imgs/0_4.png)
+![img](https://raw.githubusercontent.com/carabedo/iamend_ci/master/imgs/0_4.png)
 
 
 
