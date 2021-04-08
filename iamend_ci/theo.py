@@ -107,6 +107,7 @@ def jhf(r,z,I,*args):
     i0=N*I/((r2-r1)*dh)
     aint=1j*2*numpy.pi*f*sigma*mu0*i0
     inte=cquad(lambda k: scipy.special.j1(k*r)*ji(k,r1,r2)*expz(k,z1,z1+dh)*sigj(k,sigma,f,mur,z),0,lmax)
+    
     return(aint*inte)
 
 
