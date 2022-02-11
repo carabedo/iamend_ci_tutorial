@@ -4,6 +4,10 @@ Libreria para la estimacion de la permeabilidad relativa efectiva usando medicio
 
 ### implementacion del modelo teorico de dood,deeds
 
+Eddy Current Canonical Problems (Theodoros P. Theodoulidis and Epameinondas E. Kriezis)
+
+
+
 `iamend_ci.theo.zo()`
 
 ![img](https://raw.githubusercontent.com/carabedo/iamend_ci/master/imgs/0_1.png)
